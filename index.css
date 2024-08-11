@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background:linear-gradient(black,#020206, rgb(2, 2, 20));
+}
+header nav {
+    height: 5vw;
+    width: 100%;
+    padding: 1vw 2vw 1vw 4vw;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+header nav h2 {
+    font-size: 2vmax;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto;
+    gap: 8vw;
+    color: #ffffffc4;
+    font-size: 1.2vmax;
+    font-weight: 200;
+
+}
+
+nav ul li {
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    border-bottom: 1px solid transparent;
+
+}
+
+nav ul li:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #31a286;
+    cursor: pointer;
+}
+
+.container-landing {
+    height: 41.5vw;
+    width: 100%;
+    background-image: url("https://st4.depositphotos.com/18803028/29205/i/450/depositphotos_292059802-stock-photo-illustration-realistic-stars-pattern-background.jpg");
+    background-size: 100% 100%;
+}
+
+.container-landing .text {
+    margin: 0vw 10vw;
+    padding-top: 2.5vw;
+}
+
+.container-landing p {
+    margin-bottom: 0.2vw;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 5.6vmax;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.seagreen {
+    display: inline-block;
+    color: #31a286;
+}
+
+.container-landing #intro {
+    color: #ffffffb7;
+    font-size: 1.2vmax;
+}
+
+#button {
+    margin: 2.5vw 0vw;
+    padding: 1vw 2.5vw;
+    border: 1px solid #31a286;
+    font-size: 1.4vmax;
+    font-weight: 300;
+    color: #ffffffb7;
+    background-color: transparent;
+    transition: 0.1s ease-in-out;
+}
+
+#button:hover {
+    font-weight: 400;
+    color: #ffffff;
+    border: 1px solid #48dbb6;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    
+}
+.pg2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7vw 0vw 8vw 4vw ;
+    justify-content: space-between;
+}
+.container-skills{
+    width: 30vw;
+    height: 25vw;
+    padding-left: 2vw;
+}
+.container-skills h2{
+    margin-bottom: 1vw;
+    color: #ffffff;
+    font-size: 3vmax;
+    font-weight: 200;
+}
+.container-skills p{
+    color: #ffffff;
+    font-size: 1.3vmax;
+    font-weight: 200;
+}
+
+.container-diagram{
+    width: 50vw;
+    height: 25vw;
+    margin-left: 16vw;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns:7vw 7vw 7vw 7vw 7vw ; 
+    grid-template-rows: 30px 30px 34px 31px 34px 36px 36px 36px 36px;             
+}
+.item{
+    font-weight: 200;
+}
+.Ruby{
+    font-size: 1.6vmax;
+}
+.Express {
+    font-size: 1.9vmax;
+    font-weight: 300;
+}
+.C{
+    text-align: end;
+    font-size: 2vmax;
+    font-weight: 200;
+}
+.Node{
+    font-size: 0.9vmax;
+    text-align: center;
+}
+.SQL{
+    text-align: center;
+    padding-top: 0.6vw;
+    font-size: 1.5vmax;
+}
+.AI{
+    text-align: center;
+    font-size: 0.9vmax;
+}
+.API{
+    text-align: center;
+    font-size: 0.9vmax;
+}
+.Azure{
+    text-align: center;
+    font-size: 1.9vmax;
+    font-weight: 200;
+}
+.Java{
+    text-align: center;
+    font-size: 1.5vmax;
+}
+.PHP{
+    font-weight: 300;
+    font-size: 1.1vmax;
+}
+.Photoshop{
+    padding-top: 1vw;
+    text-align: end;
+    font-size: 0.9vmax;
+}
+.Figma{
+    font-size: 1.3vmax;
+    font-weight: 300;
+}
+.Python{
+    font-size: 1.5vmax;
+}
+.Cpp {
+    padding-top: 1vw;
+    font-size: 1.3vmax;
+}
+.Git{
+    font-size: 1.6vmax;
+}
+.Rust{
+    font-size: 1vmax;
+}
+.JavaScript{
+    grid-column: 4 / 6 ;
+    font-size: 1.9vmax;
+    font-weight: 400;
+}
+.React{
+    padding-top: 0.5vw;
+    font-size: 1.5vmax;
+    text-align: end;
+}
+.HTML{
+    text-align: center;
+}
+.Next-js{
+    font-size: 1.2vmax;
+}
+.Type-script{
+    padding-top: 1vw;
+    font-size: 1vw;
+    text-align: center;
+}
+.Styled-Components{
+    grid-column: 1 / 4;
+    font-size: 1.8vmax;
+}
+.Node-js{
+    text-align: end;
+    font-size: 0.9vmax;
+}
+.chart-js{
+    text-align: center;
+    font-size: 1.9vmax;
+    font-weight: 300;
+    grid-column: 4 / 6;
+}
+.Go{
+    padding-top: 1vw;
+    font-size: 1vw;
+}
+.Mongo-jb{
+    text-align: end;
+    font-size: 1vmax;
+}
+.Git-hub{
+    font-size: 1vmax;
+}
+.C-hash {
+    text-align: end;
+    font-size: 1vmax;
+}
+.pg-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vw  0vw;
+}
+.pg-3 img {
+    width: 55vw;
+    height: 35vw;
+    margin-left: 1vw;
+    overflow: auto;
+}
+.container-aboutUs {
+    width: 30vw;
+    height: 46vw;
+    margin-right:4vw;
+}
+.container-aboutUs h3{
+    color: #ffffff;
+    font-size: 1.9vmax;
+    font-weight: 200;
+    margin-bottom: 0.5vw;
+}
+.container-aboutUs p{
+    font-size: 1vmax;
+    color: #ffffffa9;
+    line-height: 1.6vw;
+    margin-bottom: 3.7vw;
+}
+.pg-4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1d1d25;
+    justify-content: space-between;
+}
+.example{
+    margin: 6vw 6vw ;
+}
+.example p{
+    width: 25vw;
+    color: #ffffff;
+    font-size: 2vw;
+}
+.example #button{
+    font-size: 1vw;
+    margin-left: 2vw;
+    padding: 0.8vw 3vw;
+    font-size: 1.3vmax;
+}
+.container-websites{
+    max-width: 55vw;
+    max-height:30vw;
+}
+.container-websites  img {
+    height: 15vw;
+}
+.container-websites #img1{
+    margin-bottom:0.7vw;
+    width: 27vw;
+    height: 13vw;
+}
+.container-websites #img2{ 
+    width: 20vw;
+    height: 11.2vw;
+    margin: 0.1vw 0vw 0vw 7.6vw;
+}
+.container-websites #img3{
+    width: 24vw;
+    height:12vw ;
+    margin-bottom: 6vw ;
+} 
+.container-websites #img4{
+    width: 27vw;
+    height:13.5vw ;
+    margin-left: 3.6vw;
+    margin-bottom: 3vw;
+} 
+.pg-4b{
+    display: none;
+}
+.pg-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vw;
+    margin: 4vw 6vw;
+}
+.pg-5 p{
+    width: 28vw;
+    color: #ffffff;
+    font-size: 2.8vw;
+}
+.pg-5 #button{
+    margin-right: 10vw;
+}
+
+@media (max-width:600px) {
+
+    header nav{
+        width:100% ;
+        height: 13vh;
+        padding: 1vw 3vw 1vw 5vw;
+        }
+
+    header nav h2 {
+        font-size: 3.2vmax;
+    }
+    nav ul {
+        font-size: 2.1vmax; 
+        gap: 7vw;
+    }
+    .container-landing {
+        height: 105.5vw;
+    }
+    .container-landing .text {
+        margin: 6vw 5vw;
+        padding-top: 3vw;
+    }
+    .container-landing p {
+        margin: 0.5vw;
+        font-size: 6.5vmax;
+    }
+    .container-landing #intro {
+        font-size: 1.7vmax;
+        margin: 6.6vw 0vw;
+    }
+    #button {
+        margin: 5.8vw 0vw;
+        padding: 1.7vw 4.7vw;
+        border: 1.4px solid #31a286;
+        font-size: 2.6vmax;
+        font-weight: 300;
+    }
+    #button:hover {
+        font-weight: 300;
+        color: #ffffff;
+        border: 1.2px solid #31a286; 
+    } 
+    
+    .container-skills{
+        width: 100%;
+        height: 40vw;
+        margin-top: 35vw;
+    }
+    .container-skills h2{
+        font-size: 5vmax;
+        font-weight: 200;
+    }
+    .container-skills p{
+        font-size: 2.3vmax;
+        margin: 1.5vw 2vw 0.5vw 0vw;
+    }
+    .pg2 .container-diagram{
+        display: none;
+    }
+    .pg-3 img {
+        width: 90vw;
+        height: 50vw;
+        margin: 4vw;
+    }
+    .container-aboutUs {
+        width: 100%;
+        height: 100%;
+        margin: 4vw;
+    }
+    .container-aboutUs h3{
+        font-size: 3.9vmax;
+        font-weight: 200;
+        margin: 5vw 0vw;
+    }
+    .container-aboutUs p{
+        font-size: 2.5vmax;
+        line-height: 6vw;
+        margin-bottom: 20vw;
+    }
+    .example{
+        margin-bottom: 0vw;
+    }
+    .example p{
+        width: 100%;
+        font-size: 4.8vmax;
+    }
+    .example #button{
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .container-websites{
+        display: none;
+    }
+    .pg-4b{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider{
+        overflow: hidden;
+        max-width: 67vw;
+        margin: 0vw 17vw 6vw ; 
+    }
+    .card-list .card-item{
+        height: 70vw;
+        display: flex;
+        border-radius: 1vw;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+    }
+    .card-list .card-item .user-img{
+        width: 70vw;
+        height: 40vw;
+    }
+    .slider .swiper-pagination-bullet{
+        width: 2.3vw;
+        height: 2.3vw;
+        background-color: #ffffff;
+    }
+    .slider .swiper-slider-button{
+        color: #ffffffa9;
+        margin-top: -50px;
+    }
+    .pg-5 {
+        height: 30vw;
+    }
+    .pg-5 p{
+        width: 50%;
+        color: #ffffff;
+        font-size: 2vmax;
+    }
+    .pg-5 #button{
+        font-size: 1.6vmax;
+        margin-right: 0vw;
+    }
+
+}
+
+
+
