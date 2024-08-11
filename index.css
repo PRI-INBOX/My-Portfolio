@@ -123,9 +123,8 @@ nav ul li:hover {
 }
 
 .container-diagram{
-    width: 50vw;
     height: 25vw;
-    margin-left: 16vw;
+    margin-right: 4vw;
     color: #ffffff;
     display: grid;
     grid-template-columns:7vw 7vw 7vw 7vw 7vw ; 
